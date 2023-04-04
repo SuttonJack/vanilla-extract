@@ -1,5 +1,11 @@
 # @vanilla-extract/next-plugin
 
+## 2.1.2
+
+### Patch Changes
+
+- [#912](https://github.com/vanilla-extract-css/vanilla-extract/pull/912) [`9cefba8`](https://github.com/vanilla-extract-css/vanilla-extract/commit/9cefba8aff8321b85f3349ab622fec6e344d8f0a) Thanks [@nix6839](https://github.com/nix6839)! - Add types to Nextjs plugin configuration
+
 ## 2.1.1
 
 ### Patch Changes
