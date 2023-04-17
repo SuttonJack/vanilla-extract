@@ -55,7 +55,7 @@
     "gray-matter": "^4.0.2",
     "html-render-webpack-plugin": "^3.0.1",
     "mdx-loader": "^3.0.2",
-    "mini-css-extract-plugin": "2.4.3",
+    "mini-css-extract-plugin": "^1.5.1",
     "netlify-cli": "^11.8.3",
     "null-loader": "^4.0.1",
     "remove-markdown": "^0.3.0",
