@@ -1,8 +1,8 @@
 import { VanillaExtractPlugin } from '@vanilla-extract/webpack-plugin';
 import browserslist from 'browserslist';
 import { lazyPostCSS } from 'next/dist/build/webpack/config/blocks/css';
-import { getGlobalCssLoader } from 'next/dist/build/webpack/config/blocks/css/loaders';
-import type { NextConfig } from 'next/types';
+import { getGlobalCssLoader } from 'next/dist/build/webpack/config/blocks/css/loaders/global';
+import type { NextConfig } from 'next';
 
 function getSupportedBrowsers(dir: any, isDevelopment: any) {
   let browsers;
@@ -47,7 +47,6 @@ export const createVanillaExtractPlugin =
               isDevelopment: dev,
               future: nextConfig.future || {},
               experimental: nextConfig.experimental || {},
-              // @ts-ignore -- 'appDir' config is in beta
               hasAppDir: nextConfig.experimental?.appDir,
             } as any,
             () => lazyPostCSS(dir, getSupportedBrowsers(dir, dev), undefined),

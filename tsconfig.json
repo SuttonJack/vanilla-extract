@@ -28,7 +28,8 @@
     "test-helpers/**/*",
     "site/**/*",
     "tests/**/*",
-    "scripts/*"
+    "scripts/*",
+    "test-helpers/webpack.d.ts"
   ],
   "ts-node": {
     "transpileOnly": true,
